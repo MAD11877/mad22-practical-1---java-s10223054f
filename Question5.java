@@ -27,14 +27,14 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    //System.out.print("Enter a number: ");
     int no = in.nextInt();
     ArrayList<Integer> dataList = new ArrayList<Integer>();
     ArrayList<Integer> counter = new ArrayList<Integer>();
     int count = 1;
     for (int x = 0; x < no; x++)
     {
-      System.out.print("Add a number: ");
+      //System.out.print("Add a number: ");
       int y = in.nextInt();
       if (!dataList.contains(y))
       {
@@ -55,6 +55,6 @@ public class Question5
         mode = o;
       }
     }
-    System.out.print("Mode:" + dataList.get(counter.indexOf(mode)));
+    System.out.print(dataList.get(counter.indexOf(mode)));
   }
 }
