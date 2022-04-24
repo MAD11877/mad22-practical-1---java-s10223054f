@@ -27,6 +27,16 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter a number: ");
+    int no = in.nextInt();
+    ArrayList<Integer> dataList = new ArrayList<Integer>();
+    int x = 0;
+    while (x <= no)
+    {
+      System.out.print("Add a number: ");
+      int y = in.nextInt();
+      dataList.add(y);
+      x++;
+    }
   }
 }
