@@ -18,6 +18,17 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int x = 5;
+    while (1 <= x)
+    {
+      int y = 0;
+      while (y < x)
+      {
+        System.out.print("*");
+        y++;
+      }
+      System.out.println();
+      x--;
+    }
   }
 }
