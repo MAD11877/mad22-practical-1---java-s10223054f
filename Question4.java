@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    int x = 5;
+    int x = in.nextInt();;
     while (1 <= x)
     {
       int y = 0;
